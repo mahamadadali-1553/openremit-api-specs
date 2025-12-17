@@ -101,21 +101,21 @@ const config = {
       footer: {
         style: 'dark',
         links: [
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {label: 'Overview', to: '/docs/overview'},
+          //     {label: 'Backoffice', to: '/docs/backoffice'},
+          //     {label: 'API Specifications', to: '/api-specifications'},
+          //   ],
+          // },
           {
-            title: 'Docs',
+            // title: 'More',
             items: [
-              {label: 'Overview', to: '/docs/overview'},
-              {label: 'Backoffice', to: '/docs/backoffice'},
-              {label: 'API Specifications', to: '/api-specifications'},
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/mahamadadali-1553/openremit-api-specs',
-              },
+              // {
+              //   label: 'GitHub',
+              //   href: 'https://github.com/mahamadadali-1553/openremit-api-specs',
+              // },
             ],
           },
         ],
