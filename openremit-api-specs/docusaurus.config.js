@@ -42,18 +42,55 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/',
+            to: '/docs/overview',
+          },
+        ],
+      },
+    ],
+    [
+      '@scalar/docusaurus',
+      {
+        label: 'API Specifications',
+        route: '/api-specifications',
+        showNavLink: true,
+        configuration: {
+          url: '/openremit-api-specs/openapi/openremit.yml',
+        },
+      },
+    ],
+  ],
+
+// plugins: [
+  //   [
+  //     '@scalar/docusaurus',
+  //     {
+  //       label: 'API Specifications',
+  //       route: '/api-specifications',
+  //       showNavLink: true,
+  //       configuration: {
+  //         url: '/openremit-api-specs/openapi/openremit.yml'
+  //       }
+  //     }
+  //   ]
+  // ],
+
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/mahamadadali-1553/openremit-api-specs/tree/main/',
+          routeBasePath: 'docs',
+          sidebarPath: false,  
         },
+
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -84,26 +121,43 @@ const config = {
       colorMode: {
         respectPrefersColorScheme: true,
       },
+        tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 4,
+      },
       navbar: {
-        title: 'My Site',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+         title: 'OpenRemit',
+         logo: {
+          alt: 'Paysys Labs',
+          src: 'img/paysys-logo.png',
+          // href: 'https://www.paysyslabs.com',
+          target: '_blank',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/docs/overview', label: 'Overview', position: 'left' },
+          // { to: '/api-specifications', label: 'API Specifications', position: 'left' },
+          { to: '/docs/backoffice', label: 'Backoffice', position: 'left' },
           {
             href: 'https://github.com/mahamadadali-1553/openremit-api-specs',
             label: 'GitHub',
             position: 'right',
           },
         ],
+
+        // items: [
+        //   {
+        //     type: 'docSidebar',
+        //     sidebarId: 'tutorialSidebar',
+        //     position: 'left',
+        //     label: 'Tutorial',
+        //   },
+        //   {to: '/blog', label: 'Blog', position: 'left'},
+        //   {
+        //     href: 'https://github.com/mahamadadali-1553/openremit-api-specs',
+        //     label: 'GitHub',
+        //     position: 'right',
+        //   },
+        // ],
       },
       footer: {
         style: 'dark',
