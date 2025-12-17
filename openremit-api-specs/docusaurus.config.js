@@ -20,14 +20,14 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://paysyslabs.github.io',
+  url: 'https://mahamadadali-1553.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/openremit-api-specs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'paysyslabs', // Usually your GitHub org/user name.
+  organizationName: 'mahamadadali-1553', // Usually your GitHub org/user name.
   projectName: 'openremit-api-specs', // Usually your repo name.
   trailingSlash: false,
 
@@ -51,7 +51,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/paysyslabs/openremit-api-specs/tree/main/',
+            'https://github.com/mahamadadali-1553/openremit-api-specs/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -62,7 +62,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/paysyslabs/openremit-api-specs/tree/main/',
+            'https://github.com/mahamadadali-1553/openremit-api-specs/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -98,7 +98,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/paysyslabs/openremit-api-specs',
+            href: 'https://github.com/mahamadadali-1553/openremit-api-specs',
             label: 'GitHub',
             position: 'right',
           },
