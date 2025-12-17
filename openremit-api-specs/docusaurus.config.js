@@ -90,11 +90,11 @@ const config = {
           {to: '/docs/overview', label: 'Overview', position: 'left'},
           {to: '/docs/backoffice', label: 'Backoffice', position: 'left'},
           {to: '/api-specifications', label: 'API Specifications', position: 'left'},
-          {
-            href: 'https://github.com/mahamadadali-1553/openremit-api-specs',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://github.com/mahamadadali-1553/openremit-api-specs',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
 
