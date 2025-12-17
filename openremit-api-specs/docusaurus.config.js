@@ -29,6 +29,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'mahamadadali-1553', // Usually your GitHub org/user name.
   projectName: 'openremit-api-specs', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -142,7 +143,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/mahamadadali-1553/openremit-api-specs',
               },
             ],
           },
