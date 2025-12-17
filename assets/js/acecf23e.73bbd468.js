@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkopenremit_api_specs=globalThis.webpackChunkopenremit_api_specs||[]).push([[1903],{1912(e){e.exports=JSON.parse('{"blogBasePath":"/openremit-api-specs/blog","blogTitle":"Blog","authorsListPath":"/openremit-api-specs/blog/authors"}')}}]);
