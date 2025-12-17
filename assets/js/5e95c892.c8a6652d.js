@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkopenremit_api_specs=globalThis.webpackChunkopenremit_api_specs||[]).push([[9647],{7121(e,s,r){r.r(s),r.d(s,{default:()=>u});r(6540);var a=r(4164),p=r(7559),c=r(5500),i=r(2831),n=r(1656),t=r(4848);function u(e){return(0,t.jsx)(c.e3,{className:(0,a.A)(p.G.wrapper.docsPages),children:(0,t.jsx)(n.A,{children:(0,i.v)(e.route.routes)})})}}}]);
